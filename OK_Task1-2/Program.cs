@@ -56,7 +56,7 @@ namespace OK_Task1_2
             public Square()
             {
                 Console.WriteLine("INput square side  ");
-                String input = Console.ReadLine();
+
                 side = AskDoubleValue();
             }
             public double getArea()
